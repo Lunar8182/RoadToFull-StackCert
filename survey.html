@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Best Spider-Man Movie</h1>
+    <p id="description">A short form to get your opinion on the best Spider-Man movie</p>
+
+    <form id="survey-form">
+      <input type="text" 
+      id="name" 
+      required
+      placeholder="e.g Bob"
+      > 
+      Enter your name (required):
+      </input>
+      <label for="name" id="name-label">Name</label>
+
+      <input type="email"
+       id="email" 
+       required
+       min="4"
+       max="25"
+       placeholder="e.g fake@email.com"
+       >
+       Enter your email (required):
+      </input>
+      <label for="email" id="email-label">Email</label>
+
+      <input type="number" 
+      id="number"
+      min="1"
+      max="10"
+      placeholder="1"
+      > 
+      Enter a number (1-5)
+      </input>
+      <label for="number" id="number-label">movie number</label>
+
+      <select id="dropdown">
+        <option>Spider-Man 1</option>
+        <option>Spider-Man 2</option>
+        <option>Spider-Man 3</option>
+        <option selected>The Amazing Spider-Man</option>
+
+        <input type="radio" value="1" name="radio">1</input>
+        <input type="radio" value ="2" name="radio">2</input>
+        <input type="radio" value="3" name="radio">3</input>
+        <input type="radio" value="4" name="radio">4</input>
+
+        <input type="checkbox" value="Spider-Man 1">Spider-Man 1</input>
+        <input type="checkbox" value="Spider-Man 1">Spider-Man 2</input>
+        <input type="checkbox" value="Spider-Man 1">Spider-Man 3</input>
+        <input type="checkbox" value="Spider-Man 1">The Amazing Spider-Man </input>
+
+        <textarea cols="20" rows="10">
+        </textarea>
+
+        <button type="submit" id="submit">Submit</button>
+        
+
+
+
+      </select>
+
+
+    </form>
+  </body>
+</html>
+
+** end of index.html **
+
